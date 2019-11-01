@@ -9,7 +9,7 @@ public class Applet7 extends Applet implements Runnable
 	public void start()
 	{
 		t = new Thread(this);
-		this.start();
+		t.start();
 	}
 	public void sum()
 	{
