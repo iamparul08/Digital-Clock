@@ -11,7 +11,7 @@ public class Applet7 extends Applet implements Runnable
 		t = new Thread(this);
 		t.start();
 	}
-	public void sum()
+	public void run()
 	{
 		t1 = Thread.CurrentThread();
 		while(t1 == t)
